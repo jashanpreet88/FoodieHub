@@ -15,7 +15,7 @@ public class MenuPage extends AppCompatActivity {
         setContentView(R.layout.activity_menu_page);
         indian = findViewById(R.id.food1);
         chinese = findViewById(R.id.food2);
-
+        // this is menu
         indian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
