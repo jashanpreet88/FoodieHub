@@ -8,6 +8,7 @@ import android.os.Handler;
 
 public class ThankYou extends AppCompatActivity {
     private static final int DELAY = 2000;
+    // This is thank you page
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
