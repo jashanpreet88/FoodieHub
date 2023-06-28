@@ -17,6 +17,7 @@ public class SplashPage extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Delayed executiongit
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
